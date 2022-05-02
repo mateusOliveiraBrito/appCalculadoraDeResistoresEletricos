@@ -3,6 +3,7 @@ package br.edu.ifgoiano.projetodefisica.appcalculadoraderesistoreseletricos;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                     case MotionEvent.ACTION_DOWN: {
                         _layoutTelaConceitos.setBackground(getResources().getDrawable(R.drawable.shape_pressed));
                         _txtConceitoTeorico.setTextColor(Color.WHITE);
+                        abrirTelaDeConceitosTeoricos();
                         break;
                     }
                     case MotionEvent.ACTION_UP: {
@@ -58,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void abrirTelaDeConceitosTeoricos() {
+        Intent conceito = new Intent(this, ConceitosTeoricosActivity.class);
+        startActivity(conceito);
+    }
+
     private void definirListenerParaClickLayoutTelaDeCalculoEmSerie() {
         _layoutTelaCalculoEmSerie.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -66,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                     case MotionEvent.ACTION_DOWN: {
                         _layoutTelaCalculoEmSerie.setBackground(getResources().getDrawable(R.drawable.shape_pressed));
                         _txtCalculoEmSerie.setTextColor(Color.WHITE);
+                        abrirTelaDeCalculosEmSerie();
                         break;
                     }
                     case MotionEvent.ACTION_UP: {
@@ -80,6 +88,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void abrirTelaDeCalculosEmSerie() {
+        Intent serie = new Intent(this, CalculosEmSerieActivity.class);
+        startActivity(serie);
+    }
+
     private void definirListenerParaClickLayoutTelaDeCalculoEmParalelo() {
         _layoutTelaCalculoEmParalelo.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -88,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
                     case MotionEvent.ACTION_DOWN: {
                         _layoutTelaCalculoEmParalelo.setBackground(getResources().getDrawable(R.drawable.shape_pressed));
                         _txtCalculoEmParalelo.setTextColor(Color.WHITE);
+                        abrirTelaDeCalculosEmParalelo();
                         break;
                     }
                     case MotionEvent.ACTION_UP: {
@@ -100,5 +114,10 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+    }
+
+    private void abrirTelaDeCalculosEmParalelo() {
+        Intent paralelo = new Intent(this, CalculosEmParaleloActivity.class);
+        startActivity(paralelo);
     }
 }
