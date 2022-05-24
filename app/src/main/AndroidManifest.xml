@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
         <activity
+            android:name=".DefinicaoIntensidadeEletricaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DefinicaoResistenciaEquivalenteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DefinicaoLeisDeOhmActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DefinicaoDiferencaDePotencialActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DefinicaoAssociacaoDeResistoresActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DefinicaoResistorEletricoActivity"
+            android:exported="true" />
+        <activity
             android:name=".CalculosEmParaleloActivity"
             android:exported="true" />
         <activity
