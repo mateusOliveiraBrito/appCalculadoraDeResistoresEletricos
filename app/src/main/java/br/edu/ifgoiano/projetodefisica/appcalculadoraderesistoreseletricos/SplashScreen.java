@@ -125,7 +125,7 @@ public class SplashScreen extends AppCompatActivity {
 
                 abreTelaPrincipal();
             }
-        }, 2500);
+        }, 2150);
     }
 
     private void abreTelaPrincipal() {
