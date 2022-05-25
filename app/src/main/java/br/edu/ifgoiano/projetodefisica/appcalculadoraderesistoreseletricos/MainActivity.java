@@ -45,12 +45,12 @@ public class MainActivity extends AppCompatActivity {
                     case MotionEvent.ACTION_DOWN: {
                         _layoutTelaConceitos.setBackground(getResources().getDrawable(R.drawable.shape_pressed));
                         _txtConceitoTeorico.setTextColor(Color.WHITE);
-                        abrirTelaDeConceitosTeoricos();
                         break;
                     }
                     case MotionEvent.ACTION_UP: {
                         _layoutTelaConceitos.setBackground(getResources().getDrawable(R.drawable.shape));
                         _txtConceitoTeorico.setTextColor(ContextCompat.getColor(MainActivity.this, R.color.secondary_text));
+                        abrirTelaDeConceitosTeoricos();
                         break;
                     }
                 }
@@ -73,12 +73,12 @@ public class MainActivity extends AppCompatActivity {
                     case MotionEvent.ACTION_DOWN: {
                         _layoutTelaCalculoEmSerie.setBackground(getResources().getDrawable(R.drawable.shape_pressed));
                         _txtCalculoEmSerie.setTextColor(Color.WHITE);
-                        abrirTelaDeCalculosEmSerie();
                         break;
                     }
                     case MotionEvent.ACTION_UP: {
                         _layoutTelaCalculoEmSerie.setBackground(getResources().getDrawable(R.drawable.shape));
                         _txtCalculoEmSerie.setTextColor(ContextCompat.getColor(MainActivity.this, R.color.secondary_text));
+                        abrirTelaDeCalculosEmSerie();
                         break;
                     }
                 }
@@ -101,12 +101,12 @@ public class MainActivity extends AppCompatActivity {
                     case MotionEvent.ACTION_DOWN: {
                         _layoutTelaCalculoEmParalelo.setBackground(getResources().getDrawable(R.drawable.shape_pressed));
                         _txtCalculoEmParalelo.setTextColor(Color.WHITE);
-                        abrirTelaDeCalculosEmParalelo();
                         break;
                     }
                     case MotionEvent.ACTION_UP: {
                         _layoutTelaCalculoEmParalelo.setBackground(getResources().getDrawable(R.drawable.shape));
                         _txtCalculoEmParalelo.setTextColor(ContextCompat.getColor(MainActivity.this, R.color.secondary_text));
+                        abrirTelaDeCalculosEmParalelo();
                         break;
                     }
                 }
