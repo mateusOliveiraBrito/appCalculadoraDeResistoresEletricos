@@ -82,6 +82,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/urlResistores"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -93,8 +94,8 @@
 
                     <View
                         android:layout_width="match_parent"
-                        android:layout_gravity="center"
                         android:layout_height="1dip"
+                        android:layout_gravity="center"
                         android:background="#4e77d6" />
                 </LinearLayout>
             </LinearLayout>
@@ -131,6 +132,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/urlVaristor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -142,8 +144,8 @@
 
                     <View
                         android:layout_width="match_parent"
-                        android:layout_gravity="center"
                         android:layout_height="1dip"
+                        android:layout_gravity="center"
                         android:background="#4e77d6" />
                 </LinearLayout>
             </LinearLayout>
@@ -180,6 +182,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/urlDesenhoResistor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -191,8 +194,8 @@
 
                     <View
                         android:layout_width="match_parent"
-                        android:layout_gravity="center"
                         android:layout_height="1dip"
+                        android:layout_gravity="center"
                         android:background="#4e77d6" />
                 </LinearLayout>
             </LinearLayout>
@@ -282,6 +285,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/urlTabelaDeCores"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -293,8 +297,8 @@
 
                     <View
                         android:layout_width="match_parent"
-                        android:layout_gravity="center"
                         android:layout_height="1dip"
+                        android:layout_gravity="center"
                         android:background="#4e77d6" />
                 </LinearLayout>
             </LinearLayout>
