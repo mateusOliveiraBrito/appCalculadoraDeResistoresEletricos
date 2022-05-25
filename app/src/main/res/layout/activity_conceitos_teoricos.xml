@@ -47,16 +47,18 @@
             android:text="Selecione uma opção abaixo para acessar o conteúdo completo"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
     </LinearLayout>
 
     <ScrollView
-        android:layout_marginTop="250dp"
+        android:id="@+id/scrollViewConceitosTeoricos"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
-        android:layout_height="match_parent">
+        android:layout_marginTop="250dp">
 
         <LinearLayout
+            android:id="@+id/containerScrollView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="100dp"
