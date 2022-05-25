@@ -17,8 +17,6 @@ import android.widget.TextView;
 
 public class ConceitosTeoricosActivity extends AppCompatActivity {
 
-    private ScrollView _scrollViewConceitosTeoricos;
-
     private LinearLayout _layoutTelaResistorEletrico;
     private LinearLayout _layoutTelaAssociacaoDeResistores;
     private LinearLayout _layoutTelaDiferencaDePotencial;
@@ -38,8 +36,6 @@ public class ConceitosTeoricosActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conceitos_teoricos);
-
-        _scrollViewConceitosTeoricos = findViewById(R.id.scrollViewConceitosTeoricos);
 
         _layoutTelaResistorEletrico = findViewById(R.id.layoutTelaConceitoResistor);
         _layoutTelaAssociacaoDeResistores = findViewById(R.id.layoutTelaConceitoAssociacaoDeResistores);
