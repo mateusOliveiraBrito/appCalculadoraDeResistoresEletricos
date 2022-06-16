@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Selecione uma opção abaixo para a tensão:"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/rdGpTipoTensao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/rdbtnTensaoTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#A259FF"
+            android:checked="true"
+            android:text="Tensão total" />
+
+        <RadioButton
+            android:id="@+id/rdbtnTensaoCadaResistor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#A259FF"
+            android:text="Tensão em cada resistor" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Selecione uma opção abaixo para a resistência:"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/rdGpTipoResistencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/rdbtnResistenciaTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#A259FF"
+            android:checked="true"
+            android:text="Resistência equivalente" />
+
+        <RadioButton
+            android:id="@+id/rdbtnResistenciaCadaResistor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#A259FF"
+            android:text="Resistência em cada resistor" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/containerQtdResistores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Informe a quantidade de resistores:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Quantidade de Resistores" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerTensaoTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Informe a tensão total:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Tensão total" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerResistencaEquivalente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Informe a resistência equivalente:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Resistência equivalente" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAbrirTelaDadosEspecificosTensao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#A259FF"
+        android:text="PRÓXIMA ETAPA"
+        android:textColor="#FFF" />
+</LinearLayout>
