@@ -9,12 +9,12 @@
     <com.scwang.wave.MultiWaveHeader
         android:id="@+id/waveHeader"
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="250dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         app:mwhCloseColor="#7519EA"
         app:mwhStartColor="#A259FF"
-        app:mwhWaveHeight="20dp" />
+        app:mwhWaveHeight="40dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,36 +22,97 @@
         android:layout_alignParentTop="true"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="64dp"
-                android:layout_margin="8dp"
-                android:layout_weight=".2"
-                android:src="@drawable/livro_titulo" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="5dp"
-                android:layout_weight=".8"
-                android:text="Conceitos Teóricos"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="30dp"
-                android:textStyle="bold" />
-        </LinearLayout>
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Cálculo de Associação em Série"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dip"
             android:layout_margin="8dp"
             android:background="#FFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Preencha as informações abaixo para calcular grandezas em uma associação em série"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
     </LinearLayout>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="O que será calculado?"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/rdGpGrandezas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rdBtnResistenciaEletrica"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#A259FF"
+                        android:text="Resistência elétrica equivalente" />
+
+                    <RadioButton
+                        android:id="@+id/rdBtnTensao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#A259FF"
+                        android:text="Tensão (diferença de potencial)" />
+
+                    <RadioButton
+                        android:id="@+id/rdBtnCorrente"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#A259FF"
+                        android:text="Corrente elétrica" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/formulariosGrandezas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
