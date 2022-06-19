@@ -14,8 +14,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.util.Map;
-
 public class DadosGeraisSerieResistenciaFragment extends Fragment {
 
     private EditText _edtTxtQuantidadeResistores;
@@ -42,7 +40,7 @@ public class DadosGeraisSerieResistenciaFragment extends Fragment {
                 }
 
                 Intent dadosEspecificosSerieResistencia = new Intent(container.getContext(), DadosEspecificosSerieResistenciaActivity.class);
-                dadosEspecificosSerieResistencia.putExtra("quantidadeDeResistores", _quantidadeDeResistores);
+                dadosEspecificosSerieResistencia.putExtra("quantidadeDeResistores", _quantidadeDeResistores + "");
                 startActivity(dadosEspecificosSerieResistencia);
             }
         });
