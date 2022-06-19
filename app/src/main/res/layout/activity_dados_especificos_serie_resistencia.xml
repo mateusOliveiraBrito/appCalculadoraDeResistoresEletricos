@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DadosEspecificosSerieResistenciaActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:mwhCloseColor="#7519EA"
+        app:mwhStartColor="#A259FF"
+        app:mwhWaveHeight="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Para cada resistor abaixo, preencha os campos solicitados"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_margin="8dp"
+            android:background="#FFF" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listaDeResistoresParaCalculo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="160dp" />
+
+    <Button
+        android:id="@+id/btnCalcularResistenciaEquivalenteEmSerie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:background="#A259FF"
+        android:text="CALCULAR"
+        android:textColor="#FFF" />
+</RelativeLayout>
