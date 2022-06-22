@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24635416666666668" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/drawable/layout_dados_gerais_serie_resistencia.xml" value="0.37864583333333335" />
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/drawable/shape.xml" value="0.75" />
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/drawable/shape_cabecalho.xml" value="0.20625" />
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/drawable/shape_pressed.xml" value="0.24635416666666668" />
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/drawable/texto_conteudo_estilo.xml" value="0.20625" />
+
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_calculos_em_serie.xml" value="0.264" />
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_conceitos_teoricos.xml" value="0.25" />
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_associacao_de_resistores.xml" value="0.1813975011568718" />
@@ -17,8 +19,24 @@
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_lies_de_ohm.xml" value="0.3625" />
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_resistencia_equivalente.xml" value="0.25" />
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_resistor_eletrico.xml" value="0.15771028037383178" />
+
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_calculos_em_serie.xml" value="0.264" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_conceitos_teoricos.xml" value="0.25" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_associacao_de_resistores.xml" value="0.1813975011568718" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_diferenca_de_potencial.xml" value="0.18" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_intensidade_eletrica.xml" value="0.2" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_leis_de_ohm.xml" value="0.25" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_lies_de_ohm.xml" value="0.3625" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_resistencia_equivalente.xml" value="0.25" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_definicao_resistor_eletrico.xml" value="0.15771028037383178" />
+
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_propriedades_individuais_de_cada_resistor.xml" value="0.43623639191290825" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/layout_dados_gerais_serie_corrente_eletrica.xml" value="0.4" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/layout_dados_gerais_serie_resistencia.xml" value="0.3625" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/layout_dados_gerais_serie_tensao.xml" value="0.25" />
+        <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/layout_lista_resistores.xml" value="0.67" />
         <entry key="..\:/repositorios/android/appCalculadoraDeResistoresEletricos/app/src/main/res/layout/shape.xml" value="0.25833333333333336" />
       </map>
     </option>

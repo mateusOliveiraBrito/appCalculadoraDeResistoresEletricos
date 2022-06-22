@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
         <activity
+            android:name=".CalculoResistenciaEquivalenteEmSerieActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DadosEspecificosSerieTensaoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DadosEspecificosSerieResistenciaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DadosGeraisSerieResistenciaFragment"
+            android:exported="true" />
+        <activity
             android:name=".DefinicaoIntensidadeEletricaActivity"
             android:exported="true" />
         <activity
