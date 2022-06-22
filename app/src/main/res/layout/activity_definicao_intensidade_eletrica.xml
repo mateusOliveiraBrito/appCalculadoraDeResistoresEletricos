@@ -31,4 +31,105 @@
             android:background="#FFF" />
     </LinearLayout>
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Definição"
+                    android:textColor="#605d5d"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text=" A intensidade da corrente elétrica é determinada pela razão entre a quantidade de cargas elétricas, que atravessam uma determinada seção de um condutor, pelo tempo gasto na passagem dessas cargas"
+            android:textColor="#757575"
+            android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="O que mede a intensidade elétrica?"
+                android:textColor="#605d5d"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/amperimetro" />
+
+                <!--https://industriahoje.com.br/amperimetro-o-que-e-e-para-que-serve-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/urlResistores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="0dp"
+                        android:text="Clique aqui para acessar a referência"
+                        android:textColor="#4e77d6"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:layout_gravity="center"
+                        android:background="#4e77d6" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=" Os amperímetros são instrumentos de medidas elétricas que são usados para determinar a intensidade da corrente elétrica que passa através de um fio ou circuito elétrico. Os amperímetros são utilizados para realizar medidas de corrente elétrica."
+                android:textColor="#757575"
+                android:textSize="25dp" />
+
+
+
+
+
+
+
+
+        </ScrollView>
 </LinearLayout>

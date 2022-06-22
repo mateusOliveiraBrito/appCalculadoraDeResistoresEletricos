@@ -31,4 +31,79 @@
             android:background="#FFF" />
     </LinearLayout>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Definição"
+                android:textColor="#605d5d"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text=" A resistência equivalente é um recurso utilizado para simplificar circuitos formados a partir de combinações de resistores, ou mesmo para obter resistências diferentes das que temos. Quando calculamos a resistência equivalente, estamos tentando encontrar a resistência de um único resistor que é equivalente à resistência de um conjunto de resistores."
+            android:textColor="#757575"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Para que serve?"
+            android:textColor="#605d5d"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text=" Resistência equivalente é um recurso utilizado para simplificar circuitos elétricos formados por associações de resistores, ou até mesmo para obtermos resistências elétricas diferentes daquelas que dispomos."
+            android:textColor="#757575"
+            android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Dica para calcular"
+                android:textColor="#605d5d"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=" A resistência equivalente (Req) é sempre menor que o menor contribuinte para um circuito paralelo, e é sempre maior do que o maior contribuinte para um circuito em série."
+                android:textColor="#757575"
+                android:textSize="25dp" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

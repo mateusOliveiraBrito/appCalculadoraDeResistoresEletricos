@@ -31,4 +31,399 @@
             android:background="#FFF" />
     </LinearLayout>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Definição"
+                android:textColor="#605d5d"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=" Associação de resistores é um circuito que consiste em dois ou mais elementos resistivos ôhmicos (constantes), em série, paralelo ou combinações mistas. Quando conectados em série, os resistores carregam a mesma corrente, quando conectados em paralelo, os resistores associados têm o mesmo potencial."
+                android:textColor="#757575"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/associacaoderesistores" />
+
+                <!--http://portaldoprofessor.mec.gov.br/fichaTecnicaAula.html?aula=26282-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/urlResistores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="0dp"
+                        android:text="Clique aqui para acessar a referência"
+                        android:textColor="#4e77d6"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:layout_gravity="center"
+                        android:background="#4e77d6" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Como os resistores são utilizados para muitas aplicações diferentes, eles são produzidos em diversos módulos de resistência elétrica, no entanto, é provável não encontrar um resistor com uma resistência específica, nesse caso, podemos realizar diferentes associações entre resistores. Quando associamos dois ou mais resistores, a resistência do conjunto torna-se diferente das resistências individuais de cada resistor. De acordo com a forma de associação que adotamos, é possível aumentarmos ou diminuirmos grandemente o valor da resistência equivalente de um circuito"
+                android:textColor="#757575"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="O que é uma associação em serie?"
+                android:textColor="#605d5d"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Quando conectados em série, os resistores conduzem a mesma corrente. Em uma conexão em série, todos os elementos conectados são conectados no mesmo ramo do circuito, de modo que os terminais de um dos resistores são conectados diretamente aos terminais do próximo resistor. Quando os resistores são ligados em série, o potencial aplicado nos terminais do circuito é distribuído entre os resistores, ou seja, toda a tensão aplicada cai gradativamente ao longo do circuito formado pelos resistores em série. Nesse tipo de conexão, as resistências individuais se somam, de modo que a resistência equivalente do circuito é dada pela soma das resistências em série."
+                android:textColor="#757575"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/formularesistenciaequivalente" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/urlResistores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="0dp"
+                        android:text="Formula da resistencia equivalente"
+                        android:textColor="#605d5d"
+                        android:textSize="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Exemplo de Associação em série"
+                android:textColor="#605d5d"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"/>
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/exemploserie" />
+
+                <!--https://www.preparaenem.com/fisica/associacao-resistores-serie.htm=-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/urlResistores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="0dp"
+                        android:text="Clique aqui para acessar a referência"
+                        android:textColor="#4e77d6"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:layout_gravity="center"
+                        android:background="#4e77d6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="O que é uma associação paralela?"
+                        android:textColor="#605d5d"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text=" Em uma associação em paralelo, os resistores são conectados ao mesmo potencial, no entanto, se os resistores tiverem resistências diferentes, a corrente através de cada resistor pode ser diferente, quando conectado em paralelo, a corrente é dividida de acordo com a resistência de cada ramo, quando conectado em paralelo, a resistência equivalente é menor que a resistência mínima, em paralelo, todos os resistores estão conectados no mesmo potencial"
+                        android:textColor="#757575"
+                        android:textSize="25dp" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="300dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="0dp"
+                            android:src="@drawable/formularesistenciaparelela" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/urlResistores"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="0dp"
+                                android:text="Formula da resistencia equivalente em paralelo"
+                                android:textColor="#605d5d"
+                                android:textSize="16dp"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Exemplo associação em paralelo"
+                            android:textColor="#605d5d"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="0dp"
+                                android:src="@drawable/exemploparalelo" />
+
+                            <!--http://portaldoprofessor.mec.gov.br/fichaTecnicaAula.html?aula=26283-->
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/urlResistores"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="0dp"
+                                    android:text="Clique aqui para acessar a referência"
+                                    android:textColor="#4e77d6"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dip"
+                                    android:layout_gravity="center"
+                                    android:background="#4e77d6" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:text="O que é uma associação mista?"
+                            android:textColor="#605d5d"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text=" Em uma combinação mista de resistores, pode haver série ou paralelo. Para resolvê-lo, os resistores em paralelo e os resistores em série precisam ser resolvidos separadamente. Quando existe uma resistência em série fora da conexão em paralelo, a conexão em paralelo pode ser resolvida, e então o resultado obtido é somado ao valor da resistência da outra resistência em série. Quando há uma resistência em série no paralelo, as resistências precisam ser somadas, para que a resistência equivalente do paralelo possa ser calculada"
+                            android:textColor="#757575"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Exemplo de uma associação mista"
+                            android:textColor="#605d5d"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="0dp"
+                                android:src="@drawable/exemplomista" />
+
+                            <!---->
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/urlResistores"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="0dp"
+                                    android:text="Serie fora da conexão em pararelo"
+                                    android:textColor="#605d5d"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="200dp"
+                                        android:layout_height="200dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginBottom="0dp"
+                                        android:src="@drawable/exemplomista2" />
+
+                                    <!---->
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/urlResistores"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_margin="0dp"
+                                            android:text="Resistencia em Serie no pararelo"
+                                            android:textColor="#605d5d"
+                                            android:textSize="16dp"
+                                            android:textStyle="bold" />
+
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+
+                        </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

@@ -29,5 +29,112 @@
             android:layout_height="1dip"
             android:layout_margin="8dp"
             android:background="#FFF" />
+
     </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Definição"
+            android:textColor="#605d5d"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text=" A diferença de potencial (d.d.p.), também chamada de tensão, é definida como o trabalho necessário para que uma carga se desloque de um ponto A para um ponto B, quando imersa em um campo elétrico. A falta de elétrons em um polo e o excesso em outro origina uma diferença de potencial (d.d.p.). Um aparelho elétrico só funciona quando se cria uma diferença de potencial entre os pontos em que estiver ligado para que as cargas possam se deslocar. A tensão elétrica é a diferença de potencial entre dois pontos."
+            android:textColor="#757575"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text=" Exemplo de uma ddp na prática"
+            android:textColor="#605d5d"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/exemploddp" />
+
+            <!--https://m.manualdaquimica.com/fisico-quimica/diferenca-potencial-uma-pilha.htm=-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/urlResistores"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:text="Clique aqui para acessar a referência"
+                    android:textColor="#4e77d6"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_gravity="center"
+                    android:background="#4e77d6" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text=" O que mede a ddp?"
+            android:textColor="#605d5d"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text=" O aparelho se chama (voltímetro) é um aparelho que mede a diferença de potencial (ddp) entre dois pontos de um circuito elétrico. Para que isso seja possível, é preciso que o voltímetro seja colocado em paralelo ao trecho ou ao elemento do circuito no qual essa ddp será medida."
+            android:textColor="#757575"
+            android:textSize="25dp" />
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
 </LinearLayout>
