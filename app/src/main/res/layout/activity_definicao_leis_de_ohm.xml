@@ -50,52 +50,36 @@
                 android:textColor="#605d5d"
                 android:textSize="25dp"
                 android:textStyle="bold" />
-        </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:text=" A lei de Ohm afirma que a resistência é determinada pela razão entre o potencial elétrico e a corrente. A Lei de Ohm permite calcular grandezas físicas importantes como tensão, corrente e resistência dos mais diversos elementos de um circuito. No entanto, essas leis só podem ser aplicadas a resistências ôhmicas, ou seja, objetos cuja resistência tem um módulo constante. "
-            android:textColor="#757575"
-            android:textSize="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=" A lei de Ohm afirma que a resistência é determinada pela razão entre o potencial elétrico e a corrente. A Lei de Ohm permite calcular grandezas físicas importantes como tensão, corrente e resistência dos mais diversos elementos de um circuito. No entanto, essas leis só podem ser aplicadas a resistências ôhmicas, ou seja, objetos cuja resistência tem um módulo constante. "
+                android:textColor="#757575"
+                android:textSize="25dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:text="A 1ª Lei de Ohm "
-            android:textColor="#605d5d"
-            android:textSize="25dp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="A 1ª Lei de Ohm "
+                android:textColor="#605d5d"
+                android:textSize="25dp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:text=" Determina que a diferença de potencial entre dois pontos de um resistor é proporcional à corrente acumulada nele. Além disso, de acordo com esta lei, para resistência ôhmica, a razão entre potencial e corrente é sempre constante. "
-            android:textColor="#757575"
-            android:textSize="25dp" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="0dp"
-                android:src="@drawable/primeiralei" />
-
-            <!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=" Determina que a diferença de potencial entre dois pontos de um resistor é proporcional à corrente acumulada nele. Além disso, de acordo com esta lei, para resistência ôhmica, a razão entre potencial e corrente é sempre constante. "
+                android:textColor="#757575"
+                android:textSize="25dp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -103,55 +87,55 @@
                 android:layout_gravity="center"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/urlResistores"
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/primeiralei" />
+
+                <!---->
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_margin="0dp"
-                    android:text="Fórmula"
-                    android:textColor="#605d5d"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/urlResistores2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="0dp"
+                        android:text="Fórmula"
+                        android:textColor="#605d5d"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
-        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text=" A 2ª Lei de Ohm "
+                android:textColor="#605d5d"
+                android:textSize="25dp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:text=" A 2ª Lei de Ohm "
-            android:textColor="#605d5d"
-            android:textSize="25dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:text=" Descreve quais grandezas físicas estão relacionadas com a resistência de um condutor. De acordo com essa lei, a resistência de um condutor homogêneo é proporcional ao seu comprimento e inversamente proporcional à área da seção transversal do condutor. "
-            android:textColor="#757575"
-            android:textSize="25dp" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="0dp"
-                android:src="@drawable/segundalei" />
-
-            <!---->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=" Descreve quais grandezas físicas estão relacionadas com a resistência de um condutor. De acordo com essa lei, a resistência de um condutor homogêneo é proporcional ao seu comprimento e inversamente proporcional à área da seção transversal do condutor. "
+                android:textColor="#757575"
+                android:textSize="25dp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -159,30 +143,33 @@
                 android:layout_gravity="center"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/urlResistores"
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/segundalei" />
+
+                <!---->
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_margin="0dp"
-                    android:text="Fórmula"
-                    android:textColor="#605d5d"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
 
+                    <TextView
+                        android:id="@+id/urlResistores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="0dp"
+                        android:text="Fórmula"
+                        android:textColor="#605d5d"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
             </LinearLayout>
-
         </LinearLayout>
-
-
-
-
-
-
-
-
-
-
     </ScrollView>
-
 </LinearLayout>

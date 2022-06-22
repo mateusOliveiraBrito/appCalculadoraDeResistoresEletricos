@@ -38,7 +38,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"/>
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -82,7 +82,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/urlResistores"
+                        android:id="@+id/urlResistores1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -150,7 +150,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/urlResistores"
+                        android:id="@+id/urlResistores11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -198,7 +198,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/urlResistores"
+                        android:id="@+id/urlResistores111"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -256,7 +256,7 @@
                             android:orientation="vertical">
 
                             <TextView
-                                android:id="@+id/urlResistores"
+                                android:id="@+id/urlResistores2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -299,7 +299,7 @@
                                 android:orientation="vertical">
 
                                 <TextView
-                                    android:id="@+id/urlResistores"
+                                    android:id="@+id/urlResistores22"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
@@ -372,7 +372,7 @@
                                 android:orientation="vertical">
 
                                 <TextView
-                                    android:id="@+id/urlResistores"
+                                    android:id="@+id/urlResistores223"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
@@ -413,17 +413,12 @@
                                             android:textColor="#605d5d"
                                             android:textSize="16dp"
                                             android:textStyle="bold" />
-
-
                                     </LinearLayout>
                                 </LinearLayout>
-
-
                         </LinearLayout>
-
                 </LinearLayout>
             </LinearLayout>
-
+        </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

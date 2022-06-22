@@ -1,10 +1,12 @@
 package br.edu.ifgoiano.projetodefisica.appcalculadoraderesistoreseletricos;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -23,6 +25,8 @@ public class DadosGeraisSerieCorrenteEletricaFragment extends Fragment {
     private RadioGroup _radioGroupResistenciaEquivalente;
     private RadioButton _radioButtonResistenciaEquivalente;
 
+    private Button _btnAbrirTelaDadosEspecificosTensao;
+
     private boolean isTensaoEmCadaResistor = false, isResistenciaEmCadaResistor = false;
 
     @Nullable
@@ -40,6 +44,15 @@ public class DadosGeraisSerieCorrenteEletricaFragment extends Fragment {
 
         _radioGroupTipoDeTensao = view.findViewById(R.id.rdGpTipoTensao);
         _radioButtonTensaoTotal = view.findViewById(R.id.rdbtnTensaoTotal);
+
+        _btnAbrirTelaDadosEspecificosTensao = view.findViewById(R.id.btnAbrirTelaDadosEspecificosTensao);
+        _btnAbrirTelaDadosEspecificosTensao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent dadosEspecificosSerieResistencia = new Intent(container.getContext(), DadosEspecificosSerieCorrenteEletricaActivity.class);
+                startActivity(dadosEspecificosSerieResistencia);
+            }
+        });
 
         _radioGroupTipoDeTensao.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override

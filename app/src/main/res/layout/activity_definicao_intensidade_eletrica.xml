@@ -31,35 +31,34 @@
             android:background="#FFF" />
     </LinearLayout>
 
-        <ScrollView
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="10dp"
-                    android:text="Definição"
-                    android:textColor="#605d5d"
-                    android:textSize="25dp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:text=" A intensidade da corrente elétrica é determinada pela razão entre a quantidade de cargas elétricas, que atravessam uma determinada seção de um condutor, pelo tempo gasto na passagem dessas cargas"
-            android:textColor="#757575"
-            android:textSize="25dp" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Definição"
+                android:textColor="#605d5d"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=" A intensidade da corrente elétrica é determinada pela razão entre a quantidade de cargas elétricas, que atravessam uma determinada seção de um condutor, pelo tempo gasto na passagem dessas cargas"
+                android:textColor="#757575"
+                android:textSize="25dp" />
 
 
             <TextView
@@ -110,9 +109,7 @@
                         android:layout_gravity="center"
                         android:background="#4e77d6" />
                 </LinearLayout>
-
             </LinearLayout>
-
 
             <TextView
                 android:layout_width="wrap_content"
@@ -123,13 +120,6 @@
                 android:text=" Os amperímetros são instrumentos de medidas elétricas que são usados para determinar a intensidade da corrente elétrica que passa através de um fio ou circuito elétrico. Os amperímetros são utilizados para realizar medidas de corrente elétrica."
                 android:textColor="#757575"
                 android:textSize="25dp" />
-
-
-
-
-
-
-
-
-        </ScrollView>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
